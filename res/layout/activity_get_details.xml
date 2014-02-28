@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GetDetailsActivity" >
+
+    <EditText
+  	    android:id="@+id/grainSzTitle"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignParentLeft="true"
+  	    android:layout_alignParentTop="true"
+  	    android:background="@android:color/transparent"
+  	    android:clickable="false"
+  	    android:cursorVisible="false"
+  	    android:ems="10"
+  	    android:focusable="false"
+  	    android:focusableInTouchMode="false"
+  	    android:text="@string/grainSizeTxt" />
+
+  	<EditText
+        android:id="@+id/grainSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/grainSzTitle"
+        android:layout_alignTop="@+id/grainSzTitle"
+        android:ems="10"/>
+  
+
+  	<EditText
+  	    android:id="@+id/compTitle"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignParentLeft="true"
+  	    android:layout_below="@+id/grainSize"
+  	    android:layout_marginTop="23dp"
+  	    android:background="@android:color/transparent"
+  	    android:clickable="false"
+  	    android:cursorVisible="false"
+  	    android:ems="10"
+  	    android:focusable="false"
+  	    android:focusableInTouchMode="false"
+  	    android:text="@string/compTitleTxt" />
+  	    
+    <EditText
+        android:id="@+id/grainComposition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/compTitle"
+        android:layout_alignTop="@+id/compTitle"
+        android:ems="10"/>
+  	
+    	<EditText
+  	    android:id="@+id/colorTitle"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:layout_below="@+id/grainComposition"
+  	    android:layout_marginTop="14dp"
+  	    android:layout_toLeftOf="@+id/grainComposition"
+  	    android:background="@android:color/transparent"
+  	    android:clickable="false"
+  	    android:cursorVisible="false"
+  	    android:ems="10"
+  	    android:focusable="false"
+  	    android:focusableInTouchMode="false"
+  	    android:text="@string/colorTitleTxt" >
+  	</EditText>
+	
+  	<EditText
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/colorTitle"
+        android:layout_alignTop="@+id/colorTitle"
+        android:ems="10"/>
+
+  	<EditText
+  	    android:id="@+id/grainFormTitle"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignLeft="@+id/colorTitle"
+  	    android:layout_below="@+id/colorTitle"
+  	    android:layout_marginTop="49dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+  	    android:ems="10"
+  	    android:text="@string/grainFormTitleTxt" />
+
+  	<Spinner
+  	    android:id="@+id/grainFormSpn"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/grainFormTitle"
+        android:layout_toRightOf="@+id/grainFormTitle"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+  	    android:id="@+id/grainShapeTitle"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignLeft="@+id/grainFormTitle"
+  	    android:layout_below="@+id/grainFormTitle"
+  	    android:layout_marginTop="49dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+  	    android:ems="10"
+  	    android:text="@string/grainShapeTitleTxt" />
+    
+  	<Spinner
+  	    android:id="@+id/grainShapeSpn"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/grainShapeTitle"
+        android:layout_toRightOf="@+id/grainShapeTitle"
+        android:layout_alignParentRight="true"/>
+
+  	<EditText
+  	    android:id="@+id/grainPrimaryTitle"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignLeft="@+id/grainShapeTitle"
+  	    android:layout_below="@+id/grainShapeTitle"
+  	    android:layout_marginTop="49dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+  	    android:ems="10"
+  	    android:text="@string/grainPrimaryTitleTxt" />
+    
+  	<Spinner
+  	    android:id="@+id/grainPrimarySpn"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/grainPrimaryTitle"
+        android:layout_toRightOf="@+id/grainPrimaryTitle"
+        android:layout_alignParentRight="true"/>
+  	<EditText
+  	    android:id="@+id/grainSecondaryTitle"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignLeft="@+id/grainPrimaryTitle"
+  	    android:layout_below="@+id/grainPrimaryTitle"
+  	    android:layout_marginTop="49dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+  	    android:ems="10"
+  	    android:text="@string/grainSecondaryTitleTxt" />
+    
+  	<Spinner
+  	    android:id="@+id/grainSecondarySpn"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/grainSecondaryTitle"
+        android:layout_toRightOf="@+id/grainSecondaryTitle"
+        android:layout_alignParentRight="true"/>
+  
+  	<ImageButton
+	    android:id="@+id/nextBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_below="@+id/grainSecondarySpn"
+	    android:layout_alignRight="@+id/grainSecondarySpn"
+	    android:src="@drawable/ic_next" />
+  			  				
+</RelativeLayout>

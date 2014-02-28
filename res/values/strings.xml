@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoField</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_compass">Compass</string>
+    <string name="action_map">Map</string>
+    <string name="action_notes">Notes</string>
+    <string name="title_activity_new_project">Project</string>
+    <string name="rockTypeTxt">Rock Type</string>
+    <string name="strcTypeTxt">Structure Type</string>
+
+    <string-array name="rockType_array">
+        <item>Select Type</item>
+        <item>Igneous </item>
+        <item>Metamorphic </item>
+        <item>Sedimentary </item>
+    </string-array>
+    <string-array name="strcType_array">
+        <item>Select Type</item>
+        <item>Fault</item>
+        <item>Fold</item>
+        <item>Joint</item>
+        <item>Contact</item>
+    </string-array>
+    
+    <string-array name="grainForm_array">
+        <item>Select Type</item>
+        <item>Anhedral </item>
+        <item>Subhedral </item>
+        <item>Suhedral</item>
+    </string-array>
+    <string-array name="grainShape_array">
+        <item>Select Type</item>
+        <item>Equant </item>
+        <item>Interstitial </item>
+        <item>Irregular </item>
+        <item>Platy</item>
+        <item>Prismatic</item>
+        <item>Tabular</item>
+        <item>Acicular</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="grainPrimary_array">
+        <item>Select Type</item>
+        <item>Essential</item>
+        <item>Varietal</item>
+        <item>Accessory</item>
+    </string-array>
+    <string-array name="grainSecondary_array">
+        <item>Select Type</item>
+        <item>Deuteric alteration</item>
+        <item>Chemical weathering</item>
+    </string-array>
+
+    <string name="title_activity_get_details">GetDetailsActivity</string>
+    <string name="grainSizeTxt">Grain Size</string>
+	<string name="compTitleTxt">Composition %</string>
+	<string name="colorTitleTxt">Color </string>
+	<string name="grainFormTitleTxt">Grain Form</string>
+	<string name="grainShapeTitleTxt">Grain Shape</string>
+	<string name="grainPrimaryTitleTxt">Primary</string>
+	<string name="grainSecondaryTitleTxt">Secondary</string>
+</resources>
